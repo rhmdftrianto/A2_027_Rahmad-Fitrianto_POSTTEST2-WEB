@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><img src="../img/RF.png"><a href='index.html'>Express</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tmp.html">Data Order</a></li>
+                    <li><a href="login.html" class="tbl-biru">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="order">
+        <br>
+        <h1>FORM ORDER</h1>
+        <br>
+    <form>
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br>
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" name="alamat" rows="5" cols="30" required></textarea><br>
+
+        <label for="telepon">Telepon:</label>
+        <input type="tel" id="telepon" name="telepon" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="jenis-kelamin">Jenis Kelamin:</label><br>
+        <input type="radio" id="laki-laki" name="jenis-kelamin" value="laki-laki" required>
+        <label for="laki-laki">Laki-laki</label><br>
+        <input type="radio" id="perempuan" name="jenis-kelamin" value="perempuan" required>
+        <label for="perempuan">Perempuan</label><br>
+
+        <label for="asal">Asal:</label>
+        <input type="text" id="asal" name="asal" required><br>
+
+        <label for="tujuan">Tujuan:</label>
+        <input type="text" id="tujuan" name="tujuan" required><br>
+
+        <label for="berat">Berat Barang (kg):</label>
+        <input type="number" id="berat" name="berat" min="1" max="1000" required><br>
+
+        <label for="jenis-layanan">Jenis Layanan:</label>
+        <select id="jenis-layanan" name="jenis-layanan" required>
+        <option value="">Pilih Jenis Layanan</option>
+        <option value="reguler">Reguler</option>
+        <option value="kilat">Kilat</option>
+        <option value="sameday">Sameday</option>
+        </select><br>
+
+        <label for="catatan">Catatan:</label>
+        <textarea id="catatan" name="catatan" rows="5" cols="30"></textarea><br>
+
+        <label for="layanan-tambahan">Layanan Tambahan:</label><br>
+        <input type="checkbox" id="asuransi" name="layanan-tambahan[]" value="asuransi">
+        <label for="asuransi">Asuransi</label><br>
+        <input type="checkbox" id="packing" name="layanan-tambahan[]" value="packing">
+        <label for="packing">Packing</label><br>
+        <input type="checkbox" id="pajak" name="layanan-tambahan[]" value="pajak">
+        <label for="pajak">Pajak</label><br>
+
+        <label for="File">File:</label>
+        <input type="file" id="file" name="file" required><br>
+
+        <input type="submit" value="Submit" >
+
+    </form>
+    </div>
+    <footer>
+        &copy; 2023. <b>Rahmad_Fitrianto</b> All Rights Reserved.
+    </footer>
+</body>
+<script src="../js/form.js"></script>
+</html>

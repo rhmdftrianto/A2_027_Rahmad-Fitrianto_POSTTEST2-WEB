@@ -1,0 +1,23 @@
+body{
+    padding:50px;
+    background-image: url("https://images.pexels.com/photos/208560/pexels-photo-208560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.container{
+    color: white;
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: #0F6292;
+    box-sizing: border-box;
+    background-image: url(https://img.freepik.com/free-vector/flat-blue-abstract-background_23-2149325391.jpg?w=1060&t=st=1679630336~exp=1679630936~hmac=5c8b916d67db02e5c31ba67e11ad3e3c2f2333103865c1eadb8a3fa4fec2db38);
+}
+.form-group{
+    margin-bottom:30px;
+}
