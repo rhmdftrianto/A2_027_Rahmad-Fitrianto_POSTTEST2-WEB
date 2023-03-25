@@ -4,7 +4,7 @@
 ## Kelas : Sistem Informasi A 21
 
 Halaman Home Sebelum Login
-![Screenshot (320)](https://user-images.githubusercontent.com/120031135/227730739-91128301-25b0-4ba2-bddf-a9018365264a.png)
+![Screenshot (320)](https://user-images.githubusercontent.com/120031135/227730739-91128301-25b0-4ba2-bddf-a9018365264a.png);
 
 Halaman Login
 ![Screenshot (321)](https://user-images.githubusercontent.com/120031135/227730790-72885ba0-8853-4047-8a63-955644e042c1.png)
